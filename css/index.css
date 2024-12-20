@@ -1,0 +1,12 @@
+.header-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}

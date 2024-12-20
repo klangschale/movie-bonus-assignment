@@ -1,0 +1,24 @@
+.latest-films {
+  display: flex;
+  flex-direction: column;
+}
+
+.film-section {
+  height: 100vh;
+  position: relative;
+}
+
+.film-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.film-text {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
