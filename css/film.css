@@ -1,9 +1,9 @@
-.movie-details {
+.film-description {
   padding: 20px;
   color: white;
 }
 
-.movie-body {
+.film-body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -11,21 +11,25 @@
   align-items: flex-start;
 }
 
-.movie-poster img {
+.film-poster {
+  width: auto;
+}
+
+.film-poster img {
   max-width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.movie-info {
+.film-info {
   max-width: 600px;
 }
 
-.movie-info p {
+.film-info p {
   margin: 10px 0;
 }
 
-.movie-info strong {
+.film-info strong {
   font-weight: bold;
   color: #f39c12;
 }

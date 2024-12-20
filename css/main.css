@@ -1,5 +1,4 @@
 @import url('reset.css');
-@import url('index.css');
 @import url('navigation.css');
 @import url('latestFilms.css');
 @import url('films.css');
@@ -16,6 +15,19 @@ html, body {
   scroll-behavior: smooth;
   background-color: #000;
   color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .heading {
