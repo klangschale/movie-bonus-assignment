@@ -1,0 +1,28 @@
+.person-header {
+  padding: 0 20px;
+}
+
+.person-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.person-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.person-role {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.person-bio {
+  padding: 0 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}

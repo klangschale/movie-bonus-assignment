@@ -22,3 +22,18 @@
   font-size: 1.5rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.film-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #f39c12; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  text-decoration: none; 
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.film-link:hover {
+  color: #ffdf85; 
+  text-decoration: none;
+}
