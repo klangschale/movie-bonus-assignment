@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Tracker | About Us</title>
-    
+
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/navigation.css">
 </head>
-<body>
+<body class="about-page">
   <main>
     <div class="header-content">
       <button class="menu-button">
         <span>Menu</span>
       </button>
-      <a class="logo" href="index.html">Logo</a>
+      <a class="logo" href="index.html">
+        <img src="../assets/images/logo.png" alt="Logo" class="logo-img">
+      </a>
     </div>
-  
+
     <div class="menu-overlay"></div>
-  
+
     <nav class="navigation">
       <div class="menu-panel">
         <button class="menu-button">
@@ -34,16 +36,15 @@
       </div>
     </nav>
 
-    <section class="about-section">
-      <h1 class="heading">About Film Tracker</h1>
-      <p>
-        Welcome to Film Tracker, your one-stop destination for exploring, discovering, and learning about your favorite movies and the talented people behind them. 
+    <div class="text-box">
+      <h1>About Film Tracker</h1>
+      <p>Welcome to Film Tracker, your one-stop destination for exploring, discovering, and learning about your favorite movies and the talented people behind them.
         Our platform is dedicated to providing an extensive database of films, directors, actors, and more, helping movie enthusiasts stay updated and informed.
       </p>
-    </section>
+    </div>
 
     <section class="contact-form">
-      <h2>Contact Us</h2>
+      <h2>CONTACT US</h2>
       <form action="submit_form.php" method="post">
         <div class="form-group">
           <label for="name">Your Name</label>
@@ -70,6 +71,13 @@
       </form>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <p>&copy; 2024 Film Tracker. All rights reserved.</p>
+      <p>Designed with passion for cinema lovers.</p>
+    </div>
+  </footer>
 
   <script src="../js/main.js"></script>
   <script src="../js/navigation.js"></script>
