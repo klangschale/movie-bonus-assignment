@@ -4,47 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Tracker | Home</title>
-    
+
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/navigation.css">
     <link rel="stylesheet" href="../css/latestFilms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
   <main>
     <div class="header-content">
       <button class="menu-button">
-        <span>Menu</span>
+        <i class="fas fa-bars"></i> <!-- Hamburger icon for menu -->
+        <span>MENU</span>
       </button>
-      <a class="logo" href="index.html">Logo</a>
+      <a class="logo" href="index.html">
+        <img src="../assets/images/logo.png" alt="Logo" class="logo-img">
+      </a>
     </div>
-  
+
     <div class="menu-overlay"></div>
-  
+
     <nav class="navigation">
       <div class="menu-panel">
         <button class="menu-button">
           <div class="menu-icon"></div>
-          <span>Close</span>
+          <i class="fas fa-times"></i>
+          <span>CLOSE</span>
         </button>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="films.html">Films</a></li>
-          <li><a href="people.html">People</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="films.html">FILMS</a></li>
+          <li><a href="people.html">PEOPLE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
         </ul>
       </div>
     </nav>
 
     <section class="hero-section">
+      <div class="intro">
+        <h1 class="title">Welcome to Film Tracker</h1>
+        <h2 class="subtitle">Track your favorite films with ease</h2>
+        <p class="text">Discover the latest films, read reviews, and watch trailers!</p>
+      </div>
       <div class="hero-background"></div>
 
-      <div class="hero-movie-menu">
-        <ul>
-          <li><a href="#film1">Mufasa - The Lion King World Premiere</a></li>
-          <li><a href="#film2">Love Actually - All-time Christmas Favorite</a></li>
-          <li><a href="#film3">Dune: Part Two - The Long Awaited Sci-fi Movie</a></li>
-        </ul>
+      <div class="hero-cards">
+        <a href="#film1" class="hero-card">
+          <h3>Featured Film</h3>
+          <p>Mufasa - The Lion King World Premiere</p>
+        </a>
+
+        <a href="#film2" class="hero-card">
+          <h3>Classic Pick</h3>
+          <p>Love Actually - All-time Christmas Favorite</p>
+        </a>
+
+        <a href="#film3" class="hero-card">
+          <h3>Upcoming Release</h3>
+          <p>Dune: Part Two - The Long Awaited Sci-fi Movie</p>
+        </a>
       </div>
+
     </section>
 
     <section class="latest-films">
@@ -71,6 +92,13 @@
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <p>&copy; 2024 Film Tracker. All rights reserved.</p>
+      <p>Designed with passion for cinema lovers.</p>
+    </div>
+  </footer>
 
   <script src="../js/main.js"></script>
   <script src="../js/navigation.js"></script>
