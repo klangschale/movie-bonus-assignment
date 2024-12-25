@@ -6,7 +6,7 @@
 .film-body {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: flex-start;
 }

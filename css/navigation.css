@@ -12,6 +12,12 @@
   z-index: 1000;
 }
 
+.menu-button.scrolled {
+  background-color: rgba(243, 156, 18, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
 .menu-button .menu-icon {
   font-size: 28px;
   margin-right: 10px;
@@ -28,7 +34,10 @@
 
 .menu-button i {
   font-size: 24px;
-  margin-right: 10px; /* Space between icon and text */
+}
+
+.menu-text {
+  margin-left: 10px;
 }
 
 .menu-overlay {
@@ -84,4 +93,19 @@
 .menu-panel a {
   text-decoration: none;
   color: black;
+  transition: color 0.3s ease;
+}
+
+.menu-panel a:hover {
+  color: #d3d3d3;
+}
+
+@media (max-width: 576px) {
+  .menu-text {
+    display: none;
+  }
+
+  .menu-panel {
+    width: 100vw;
+  }
 }

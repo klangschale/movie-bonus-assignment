@@ -37,3 +37,14 @@
   color: #ffdf85; 
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  .film-link {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  .film-description {
+    font-size: 1rem;
+  }
+}
