@@ -1,3 +1,12 @@
+.heading {
+  font-size: 2.5rem;
+  color: #787676;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .people-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -25,11 +34,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.person-photo {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-bottom: 1px solid #ddd;
+.people-page .person-photo {
+  max-width: 100%; /* Allows the image to take up full available width */
+  height: auto;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for the person page */
 }
 
 .person-details {
@@ -41,24 +49,24 @@
 }
 
 .person-name {
-  font-size: 1.5rem;
-  color: #333;
+  font-size: 25px;
+  color: #6D2800;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.person-role {
+  font-size: 16px;
+  color: #6a6a6a;
   margin: 0;
   font-weight: bold;
 }
 
-.person-role {
-  font-size: 1rem;
-  color: #777;
-  margin: 0;
-  font-style: italic;
-}
-
 .person-bio {
-  font-size: 0.9rem;
-  color: #555;
+  font-size: 14px;
+  color: black;
   margin: 0;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (max-width: 768px) {

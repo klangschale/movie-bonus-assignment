@@ -1,70 +1,83 @@
-.about-section {
-  padding: 0 50px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.about-section p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #555;
-  margin-bottom: 30px;
+.about-page {
+  background: url('../assets/images/about-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  color: white; /* Make sure text is visible on the background */
 }
 
 .contact-form {
-  background: #f9f9f9;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: 30px auto;
+    background-color: rgba(20, 20, 20, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 .contact-form h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #444;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .form-group input,
 .form-group textarea,
 .form-group select {
-  width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
 }
 
-.form-group textarea {
-  height: 100px;
-  resize: vertical;
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #979494;
+    outline: none;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px; /* Adds space between fields */
 }
 
 .submit-button {
-  background-color: #007BFF;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #979494;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form .form-group label {
+  display: block;
+  margin-bottom: 8px; /* Adds space after the label */
+  font-weight: bold;
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+    background-color: #cdcdc9;
+    transform: scale(1.05);
 }
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+}
+

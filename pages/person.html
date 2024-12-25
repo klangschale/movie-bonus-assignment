@@ -7,45 +7,66 @@
     
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-  <main>
-    <div class="header-content">
+<main>
+  <div class="header-content">
+    <button class="menu-button">
+      <i class="fas fa-bars"></i> <!-- Hamburger icon for menu -->
+      <span>MENU</span>
+    </button>
+    <a class="logo" href="index.html">
+      <img src="../assets/images/logo.png" alt="Logo" class="logo-img">
+    </a>
+  </div>
+
+  <div class="menu-overlay"></div>
+
+  <nav class="navigation">
+    <div class="menu-panel">
       <button class="menu-button">
-        <span>Menu</span>
+        <div class="menu-icon"></div>
+        <i class="fas fa-times"></i>
+        <span>CLOSE</span>
       </button>
-      <a class="logo" href="index.html">Logo</a>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="films.html">FILMS</a></li>
+        <li><a href="people.html">PEOPLE</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
     </div>
-  
-    <div class="menu-overlay"></div>
-  
-    <nav class="navigation">
-      <div class="menu-panel">
-        <button class="menu-button">
-          <div class="menu-icon"></div>
-          <span>Close</span>
-        </button>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="films.html">Films</a></li>
-          <li><a href="people.html">People</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-    </nav>
+  </nav>
 
+  <section class="person-description">
     <h1 class="heading">Adil El Arbi</h1>
-    <div class="person-header">
-      <img class="person-photo" src="https://m.media-amazon.com/images/M/MV5BNTk4ODJmM2QtMjA3YS00MjU4LThhNmQtNjZhMDkzMzU1MzI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_SY1000_CR0,0,749,1000_AL_.jpg" alt="Adil El Arbi">
+
+    <div class="person-body">
+      <div class="person-poster">
+        <img src="https://m.media-amazon.com/images/M/MV5BNTk4ODJmM2QtMjA3YS00MjU4LThhNmQtNjZhMDkzMzU1MzI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_SY1000_CR0,0,749,1000_AL_.jpg" alt="Adil El Arbi">
+      </div>
       <div class="person-info">
-        <p class="person-role">Director</p>
+        <p>
+          <strong>ROLE:</strong> Director
+        </p>
+        <p>
+          <strong>BIOGRAPHY:</strong> Adil El Arbi is a director and actor, known for <em>Black</em> (2015), <em>Patser</em> (2018), and <em>Bad Boys for Life</em> (2020).
+        </p>
       </div>
     </div>
+  </section>
+</main>
 
-    <p class="person-bio">Adil El Arbi is a director and actor, known for <em>Black</em> (2015), <em>Patser</em> (2018) and <em>Bad Boys for Life</em> (2020).</p>
-  </main>
+<footer class="footer">
+  <div class="footer-info">
+    <p>&copy; 2024 Film Tracker. All rights reserved.</p>
+    <p>Designed with passion for cinema lovers.</p>
+  </div>
+</footer>
 
-  <script src="../js/main.js"></script>
-  <script src="../js/navigation.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/navigation.js"></script>
 </body>
 </html>

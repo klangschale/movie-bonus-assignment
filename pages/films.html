@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Film Tracker | Films</title>
-    
-    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/navigation.css">
 </head>
 <body>
   <main>
     <div class="header-content">
       <button class="menu-button">
-        <span>Menu</span>
+        <i class="fas fa-bars"></i> <!-- Hamburger icon for menu -->
+        <span>MENU</span>
       </button>
-      <a class="logo" href="index.html">Logo</a>
+      <a class="logo" href="index.html">
+        <img src="../assets/images/logo.png" alt="Logo" class="logo-img">
+      </a>
     </div>
-  
+
     <div class="menu-overlay"></div>
-  
+
     <nav class="navigation">
       <div class="menu-panel">
         <button class="menu-button">
           <div class="menu-icon"></div>
-          <span>Close</span>
+          <i class="fas fa-times"></i>
+          <span>CLOSE</span>
         </button>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="films.html">Films</a></li>
-          <li><a href="people.html">People</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="films.html">FILMS</a></li>
+          <li><a href="people.html">PEOPLE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
         </ul>
       </div>
     </nav>
 
     <h1 class="heading">Recent films</h1>
     <section class="films-list">
-      <a href="film.html" class="film-item" id="film001">
+      <a href="film.html" class="film-item" id="film001"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_SY1000_CR0,0,631,1000_AL_.jpg" alt="1917">
         <div class="film-details">
           <h2 class="film-title">1917 (2019)</h2>
@@ -47,7 +52,7 @@
           <p class="film-score">Score: 8.5</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film002">
+      <a href="film.html" class="film-item" id="film002"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BZDU4NGY0ZDEtYmZjOS00YTUzLThmNzgtMDQzZjE0MWYxNjgxXkEyXkFqcGdeQXVyMTE2Mzg1NTEy._V1_.jpg" alt="Fast & Furious 9">
         <div class="film-details">
           <h2 class="film-title">Fast & Furious 9 (2020)</h2>
@@ -58,7 +63,7 @@
           <p class="film-score">Score: 8.7</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film003">
+      <a href="film.html" class="film-item" id="film003"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="Parasite">
         <div class="film-details">
           <h2 class="film-title">Parasite (2019)</h2>
@@ -69,7 +74,7 @@
           <p class="film-score">Score: 8.6</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film004">
+      <a href="film.html" class="film-item" id="film004"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="Once Upon a Time... in Hollywood">
         <div class="film-details">
           <h2 class="film-title">Once Upon a Time... in Hollywood (2019)</h2>
@@ -80,7 +85,7 @@
           <p class="film-score">Score: 7.7</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film005">
+      <a href="film.html" class="film-item" id="film005"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="Little Women">
         <div class="film-details">
           <h2 class="film-title">Little Women (2019)</h2>
@@ -91,7 +96,7 @@
           <p class="film-score">Score: 8.1</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film006">
+      <a href="film.html" class="film-item" id="film006"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_CR0,0,682,1000_AL_.jpg" alt="The Irishman">
         <div class="film-details">
           <h2 class="film-title">The Irishman (2019)</h2>
@@ -102,7 +107,7 @@
           <p class="film-score">Score: 8</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film007">
+      <a href="film.html" class="film-item" id="film007"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SY1000_SX675_AL_.jpg" alt="The Gentlemen">
         <div class="film-details">
           <h2 class="film-title">The Gentlemen (2020)</h2>
@@ -113,7 +118,7 @@
           <p class="film-score">Score: 8.1</p>
         </div>
       </div>
-      <a href="film.html" class="film-item" id="film008">
+      <a href="film.html" class="film-item" id="film008"/>
         <img class="film-image" src="https://m.media-amazon.com/images/M/MV5BZDhkMjUyYjItYWVkYi00YTM5LWE4MGEtY2FlMjA3OThlYmZhXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,640,1000_AL_.jpg" alt="Uncut Gems">
         <div class="film-details">
           <h2 class="film-title">Uncut Gems (2019)</h2>
@@ -126,6 +131,13 @@
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <p>&copy; 2024 Film Tracker. All rights reserved.</p>
+      <p>Designed with passion for cinema lovers.</p>
+    </div>
+  </footer>
 
   <script src="../js/main.js"></script>
   <script src="../js/navigation.js"></script>
